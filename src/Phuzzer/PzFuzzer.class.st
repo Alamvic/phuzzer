@@ -1,0 +1,27 @@
+Class {
+	#name : #PzFuzzer,
+	#superclass : #Object,
+	#instVars : [
+		'random'
+	],
+	#category : #Phuzzer
+}
+
+{ #category : #initialization }
+PzFuzzer >> initialize [
+
+	super initialize.
+	random := Random new
+]
+
+{ #category : #running }
+PzFuzzer >> run: aRunner times: anInteger [ 
+	
+	^ (1 to: anInteger) collect: [ :i | self value: aRunner ]
+]
+
+{ #category : #accessing }
+PzFuzzer >> value: aValuable [
+
+	^ aValuable value: self fuzz
+]
