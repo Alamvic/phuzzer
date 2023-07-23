@@ -33,6 +33,6 @@ BaselineOfPhuzzer >> baseline: spec [
 	spec for: #common do: [
 		spec
 			baseline: 'Gnocco'
-				with: [ spec repository: 'github://alamvic/gnocco:master' ];
+				with: [ spec repository: 'github://alamvic/gnocco:release' ];
 			package: 'Phuzzer' with: [ spec requires: #( 'Gnocco' ) ] ]
 ]
