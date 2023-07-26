@@ -36,8 +36,8 @@ PzGrammarFuzzer >> grammar: anObject [
 
 { #category : #initialization }
 PzGrammarFuzzer >> initialize [
-
+ 
 	super initialize.
-	grammarGenerator := GncGrammarGenerator new.
-	grammarGenerator maxHeightCost: 10.
+	grammarGenerator := GncGrammarGenerator newMinimal.
+	grammarGenerator maxHeight: 10.
 ]
