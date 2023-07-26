@@ -40,4 +40,5 @@ PzGrammarFuzzer >> initialize [
 	super initialize.
 	grammarGenerator := GncGrammarGenerator newMinimal.
 	grammarGenerator maxHeight: 10.
+	grammarGenerator maxSize: 10.
 ]
