@@ -1,7 +1,7 @@
 Class {
 	#name : #PzFlipCharacterMutation,
 	#superclass : #Object,
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #mutating }

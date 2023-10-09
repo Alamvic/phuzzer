@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'block'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Runners'
 }
 
 { #category : #'instance creation' }

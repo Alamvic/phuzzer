@@ -7,7 +7,7 @@ Class {
 		'maxMutations',
 		'mutations'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #'as yet unclassified' }

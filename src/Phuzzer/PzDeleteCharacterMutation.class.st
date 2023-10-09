@@ -1,7 +1,7 @@
 Class {
 	#name : #PzDeleteCharacterMutation,
 	#superclass : #Object,
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #mutating }

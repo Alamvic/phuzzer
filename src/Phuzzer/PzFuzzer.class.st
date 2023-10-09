@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'random'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #initialization }

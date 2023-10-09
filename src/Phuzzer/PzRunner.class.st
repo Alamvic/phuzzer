@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'random'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Runners'
 }
 
 { #category : #status }

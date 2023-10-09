@@ -8,7 +8,7 @@ Class {
 		'ntMonth',
 		'ntYear'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Examples'
 }
 
 { #category : #initialization }

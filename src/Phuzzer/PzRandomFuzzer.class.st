@@ -10,7 +10,7 @@ Class {
 		'charStart',
 		'charRange'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #accessing }

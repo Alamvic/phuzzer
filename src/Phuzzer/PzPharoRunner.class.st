@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'expectedException'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Runners'
 }
 
 { #category : #running }

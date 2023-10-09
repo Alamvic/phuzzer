@@ -5,7 +5,7 @@ Class {
 		'grammar',
 		'grammarGenerator'
 	],
-	#category : #Phuzzer
+	#category : #'Phuzzer-Core'
 }
 
 { #category : #'instance creation' }
